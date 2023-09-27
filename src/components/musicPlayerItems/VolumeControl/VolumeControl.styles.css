@@ -1,0 +1,16 @@
+
+.volume{
+    position: relative;
+}
+.volume span{
+    display: none;
+    padding: 5px 10px;
+    position: absolute;
+    top: -32px;
+    right: 0;
+    background: var(--brown25);
+}
+.volume span.show{
+    display: flex;
+    align-items: center;
+}

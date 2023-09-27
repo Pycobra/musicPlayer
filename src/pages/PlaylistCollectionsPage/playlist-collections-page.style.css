@@ -1,0 +1,7 @@
+.playlist-collection,
+.playlist-c__wrap{
+    display: grid;
+}
+.playlist-collection .playlist-c__wrap .playlist-c__item.list-block{
+    gap: 0;
+}

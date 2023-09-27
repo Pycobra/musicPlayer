@@ -1,0 +1,92 @@
+:root{
+  --darkblue: #291999;
+  --lightblue: rgba(85,85,205,1);
+  --lightblue2: #8f00ff;
+  --normalorange: orange;
+  --lightred: rgba(255,0,0,0.8);
+  --normalwhite: white;
+  --lightwhite: rgba(255,255,255,0.8);
+  --darkgrey: #708090;
+  --lightgrey:#f3f3f3;
+  --normalblack: black;
+  --border-line-color: 1px solid rgb(214, 212, 212);
+  --border-line-color-2: 2px solid rgb(214, 212, 212);
+  --site-black: rgb(31 32 39);; /*#1d1e24;*/
+  --site-black-2: rgb(24, 24, 24); /*#181818;*/
+  --site-red: rgb(176, 53, 53); 
+  --site-green: green; 
+  --text-color: : rgb(245, 239, 239);
+  --sub-color: grey;
+  --main-color: black;
+
+  --search-brown: #78715a;
+  --other-gray: #2b2a2a;
+  --canal-green: #2f8e89;
+  
+  --brown1: #faf9f7;
+  --brown2: #f6f5f2;
+  --brown3: #f3f1ed;
+  --brown4: #f0ede8;
+  --brown5: #edeae3;
+  --brown6: #eae6de;
+  --brown7: #e6e2d9;
+  --brown8: #e3ded5;
+  --brown9: #e0dad0;
+  --brown10: #ddd7cb;
+  --brown11: #d9d3c6;
+  --brown12: #d6cfc1;
+  --brown13: #d3cbbc;
+  --brown14: #c9c0ad;
+  --brown15: #c6bca8;
+  --brown16: #bcb009;
+  --brown17: #b3a58b;
+  --brown18: #afa186;
+  --brown19: #a69677;
+  --brown20: #9c8a68;
+  --brown21: #8f7e5d;
+  --brown22: #807153;
+  --brown23: #71644a;
+  --brown24: #625740;
+  --brown25: #534936;
+  --brown26: #453c2d;
+  --brown27: #362f23;
+  --brown28: #272219;
+  --brown29: #181510;
+  --brown30: #090806;
+
+  --mask: #1b1b1b;
+  --major: #333;
+  --normal: #666;
+  --gray: #999;
+  --disabled: #ccc;
+  --default: #ececec;
+  --pale-gray: #adadad;
+  --light-gray: #f8f8f8;
+
+  --purple-blue: linear-gradient(to right, #2a2f47, #956ae1);
+  --blue-red: linear-gradient(to right, var(--site-red), #956ae1);
+  --blue-red2: linear-gradient(to right, rgb(233 158 158), #5f5471);
+  --base-color: linear-gradient(to right, black, var(--major) )
+}
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  overflow: hidden;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background: linear-gradient(
+    to left, 
+    rgba(7, 27, 82, 1) 0%,
+    rgba(7, 27, 82, 1) 100%
+  ); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

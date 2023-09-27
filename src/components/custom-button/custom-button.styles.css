@@ -1,0 +1,104 @@
+.custom-button {
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:normal;
+    cursor: pointer;
+    font-family: 'Open Sans Condensed';
+    color:var(--normalwhite);
+    position: relative;
+    z-index: 1;
+}
+.custom-button.shop-now-btn{
+  height:50px;
+  width: 100%;
+  margin: 0;
+  border-radius:0;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.9);
+  background-color:var(--normalblack);
+}
+.flat-button{
+  height:30px;
+  width: 40%;
+  margin: 10px 0 0 0;
+  border-radius:0;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.9);
+  background-color:var(--site-green);
+  border: none;
+}
+.custom-button .artist-view-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  position: absolute;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  background-color: aliceblue;
+  z-index: 2;
+}
+.custom-button .card .card-inside{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.custom-button .card .card-inside .icon{
+  position: absolute;
+  top: -10px;
+  left: 0;
+  color: blue;
+}
+
+.custom-button.circle-type,
+.custom-button.circle-type2{
+  height:40px;
+  width: 40px;
+  color: var(--site-green);
+  border:1px solid white;
+  background-color: transparent;
+}
+.custom-button.circle-type:last-child,
+.custom-button.circle-type2:last-child{
+  margin-right:0;
+}
+.custom-button.border-type span:first-child,
+.custom-button.border-type2 span:first-child{
+  width: 0;
+}
+.custom-button.border-type{
+  padding: 10px;
+  font-size:13px;
+  color: var(--light-gray);
+  border:1px solid white;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

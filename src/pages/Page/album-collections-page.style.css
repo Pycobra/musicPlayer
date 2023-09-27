@@ -1,0 +1,6 @@
+.album-collection, 
+.album-c__wrap{
+    display: grid;
+}
+.album-collection .album-c__wrap .album-c__item.list-block{
+}

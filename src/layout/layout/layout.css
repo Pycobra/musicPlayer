@@ -1,0 +1,61 @@
+.layout{
+    display: grid;
+  }
+  .layout .main-layout{
+    display: grid;
+  }
+  .layout main{
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    left: 0px;
+    overflow: hidden;
+    background: var(--mask);
+    background: var(--base-color);
+  }
+  .layout .main-wrapper{
+    display: flex;
+    width: 100%;
+  }
+.layout .main-wrapper.reduce-height-for-btm-player{
+    height:90vh;
+    animation: reduceHeight 500ms ease-in 1;
+  }
+  @keyframes reduceHeight {
+    from {height: 100%;}
+    to {height: 65vh;}
+  }
+  
+  
+.layout main #container{
+    display: grid;
+    width: 80vw;
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    color: var(--light-gray);
+}
+  .layout main #container.adjust-container{
+    width: 100%;
+  }
+  .layout .layout-body.body-change-color{
+  }
+  .layout .layout-body.increase-body{
+    width: 98%; 
+  }
+  
+  
+  
+  @media screen and (max-width:768px){
+    .layout .layout-body.reduce-height-for-btm-player{
+      height: 55vh;
+    }
+    .layout main #container{
+      width: 100%;
+      margin-left: 40px;
+      height: 100vh;
+    }
+  }
+  

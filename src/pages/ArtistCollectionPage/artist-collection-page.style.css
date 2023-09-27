@@ -1,0 +1,8 @@
+.artist-collection,
+.artist-c__wrap{
+    display: grid;
+}
+.artist-collection .artist-c__wrap .artist-c__item.list-block{
+}
+
+

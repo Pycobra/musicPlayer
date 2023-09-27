@@ -1,0 +1,49 @@
+input[type="range"]{
+    --range-progress: 0;
+    height: 2px;
+}
+
+input[type="range"]::before{
+    background: #f50;
+    width: var(--range-progress);
+}
+.progress-bar{
+    display: grid;
+}
+.progress-bar .box{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress-bar .box:first-child{
+    justify-self: center;
+}
+.progress-bar .box.main-control{
+    display:none;
+    padding: 2px 15px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .progress-bar .box {
+        font-size: 12px;
+    }
+    .progress-bar .box.main-control{
+        display: flex;
+    }
+    .progress-bar .box.main-control .fa-circle-pause,
+    .progress-bar .box.main-control .fa-circle-play{
+        font-size: 20px;
+    }
+    .progress-bar{
+        display: grid;
+        background: rgba(1,1,1,.3);
+        padding: 5px 15px;
+        border-radius: 50px;
+    }
+}

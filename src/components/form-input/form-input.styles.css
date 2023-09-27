@@ -1,0 +1,112 @@
+.input-fields {
+  width: 100%;
+  border: none;
+  height: 35px;
+  outline: none;
+  padding-left: 10px;
+  /* border: var(--border-line-color);
+  color: var(--my-font-colors); */
+}
+
+.flat-input{
+  color: black;
+}
+.search-input{
+  background-color: rgba(0,40,40,10);
+  border-radius:0 55px 55px 0;
+  /* background-color: black; */
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+
+
+
+
+.group {
+  position: relative;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.group .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:auto;
+    border-radius:5px 0 0 5px;
+    border:0.1px solid var(--lightgrey);
+    border-right:0;
+    font-size:1.2rem;
+    font-weight:normal;
+    background-color:var(--normalwhite);
+    color:var(--darkgrey);
+}
+
+.group .group-form-input {
+  background: none;
+  color: var(--normalwhite);
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  height:fit-content;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid green;
+  margin-bottom: 25px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.group .group-form-input:last-child {
+  margin-bottom: 0;
+}
+.group .group-form-input:focus {
+  outline: none;
+}
+.group .group-form-input:focus ~ .group .group-form-input-label {
+  top: -20px;
+  font-size: 12px;
+  color:  var (--main-color);
+}
+.group input[type='password'] {
+  letter-spacing: 0.3em;
+}
+
+.group .group-form-input-label {
+  color: var(--site-green);
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 0px;
+  transition: 300ms ease all;
+}
+.group .group-form-input.issearch{
+  border-bottom: 2px solid rgba(1,1,1,.1);
+}
+.group .group-form-input-label.issearch{
+  font-size: 25px;
+  font-weight: bold;
+  top:-10px;
+  opacity: .2;
+}
+.group .group-form-input-label.shrink {
+  top: -15px;
+  font-size: 12px;
+  color:  var (--main-color);
+}
+
+
+.group .small-input{
+  width: 130px;
+}
+.group .small-input2{
+  width: 130px;
+  color: var(--normalblack);
+}
+
+
+

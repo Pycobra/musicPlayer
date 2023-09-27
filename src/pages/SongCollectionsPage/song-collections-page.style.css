@@ -1,0 +1,7 @@
+.song-collection,
+.song-c__wrap{
+    display: grid;
+}
+.song-collection .song-c__wrap .song-c__item.list-block{
+    gap: 0;
+}

@@ -1,0 +1,34 @@
+
+.new-playlist-card{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left:0;
+    height:100vh;
+    width: 100%;
+}
+.new-playlist-card .card-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    background: var(--purple-blue);
+}
+.new-playlist-card.show-new-playlist-card{
+  display: flex;
+  z-index: 1;
+}
+.new-playlist-card span{
+  color: var(--normalwhite);
+  margin-bottom: 10px;
+}
+.new-playlist-card span:last-child{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}

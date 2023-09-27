@@ -1,0 +1,6 @@
+.search-page, 
+.search-p__wrap{
+    display: grid;
+}
+.search-page .search-p__wrap .search-p__item.list-block{
+}
