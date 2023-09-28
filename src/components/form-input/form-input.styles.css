@@ -14,7 +14,7 @@
 .search-input{
   background-color: rgba(0,40,40,10);
   border-radius:0 55px 55px 0;
-  /* background-color: black; */
+  color: white;
 }
 
 .search-input:focus {
