@@ -72,11 +72,13 @@
       width: 120px;
     }
 }
-@media screen and (max-width:540px){
-}
 @media screen and (max-width:365px){
   .items{
       width: 110px;
+    }
+  }
+@media screen and (max-width:359px){
+  .items{
       flex-grow: 1;
     }
   }
