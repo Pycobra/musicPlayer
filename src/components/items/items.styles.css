@@ -72,7 +72,7 @@
       width: 120px;
     }
   }
-@media screen and (max-width:375px){
+@media screen and (max-width:365px){
   .items{
       flex-grow: 1;
     }
