@@ -43,7 +43,7 @@ import Homepage from '../../pages/Homepage/homepage';
                   </div>
                   {
                       activatedSong 
-                      ? <BottomPlayer layOutRef={layOutRef} activatedSong={activatedSong}/>
+                      ? <BottomPlayer />
                       : null
                   }
                   
