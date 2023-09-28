@@ -25,6 +25,7 @@
   }
   .main-app .head .block{
     display: flex;
+    align-items:center;
     gap: 20px;
   }
   .main-app .head .block:last-child .box.a{
@@ -172,4 +173,15 @@
   .main-app .body{
     padding-right: 20px;
   }
+}
+@media screen and (max-width:540px){ 
+  .main-app .head .block{
+    gap: 10px;
   }
+  .main-app .head h1 {
+    font-size: 16px;
+  }
+  .edit-btn {
+    font-size: 8px;
+  }
+}
