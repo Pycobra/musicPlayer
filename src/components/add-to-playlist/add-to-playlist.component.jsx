@@ -58,13 +58,17 @@ const AddToPlaylistFrame = ({songsList, my_playlist, activated_playlist}) => {
                         
                     </div>
                     <div className="frame-item">
-                        <ul>
-                            {
-                                accordionPlaylist.map(({name, id, icon}) =>
-                                    <li key={id} onClick={e => HandlePlaylistClick(e, id)}>{icon}<span>{name}</span></li>
-                                )
-                            }
-                        </ul>
+                        {
+                            accordionPlaylist.length
+                            ? <ul>
+                                {
+                                    accordionPlaylist.map(({name, id, icon}) =>
+                                        <li key={id} onClick={e => HandlePlaylistClick(e, id)}>{icon}<span>{name}</span></li>
+                                    )
+                                }
+                            </ul>
+                            : <span>you have no playlist</span>
+                        }
                     </div>
                 </div>
                 <div className="add-to-playlist-item">
