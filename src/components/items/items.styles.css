@@ -71,9 +71,12 @@
   .items{
       width: 120px;
     }
-  }
+}
+@media screen and (max-width:540px){
+}
 @media screen and (max-width:365px){
   .items{
+      width: 110px;
       flex-grow: 1;
     }
   }
